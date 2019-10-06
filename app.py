@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<a href="/Kauplisti/">Kauplisti</a> <a href="/Karfa/">Karfa</a>'
+    return '<a href="/kauplisti/">kauplisti</a> <a href="/Karfa/">Karfa</a>'
 
 @app.route('Karfa')
 def Karfa()
@@ -11,7 +11,7 @@ def Karfa()
 
 @app.route('Kauplisti')
 def Kauplisti()
-    return <input type="submit" value = "Kaupa" />
+    return '<h1>'<input type="submit" value = "Kaupa" />'</h1>'
 
 if __name__ == "__main__":
 	app.run(debug=True)
