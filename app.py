@@ -10,5 +10,4 @@ def Karfa()
 
 @app.route('Kauplisti')
 def Kauplisti()
-    return 
-    <input type="submit" value = "Kaupa" />
+    return <input type="submit" value = "Kaupa" />
