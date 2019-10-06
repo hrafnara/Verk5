@@ -6,11 +6,11 @@ def index():
     return 'h1>Hello World</h1><a href="/kauplisti/">kauplisti</a> <a href="/karfa/">Karfa</a>'
 
 @app.route('/karfa/')
-def karfa()
+def karfa():
     return '<h3>halló</h3>'
 
 @app.route('/kauplisti/')
-def Kauplisti()
+def Kauplisti():
     '<h1>' gsda '</h1>'
 
 if __name__ == "__main__":
