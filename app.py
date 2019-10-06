@@ -11,7 +11,7 @@ def karfa()
 
 @app.route('/kauplisti/')
 def Kauplisti()
-    '<h1>' + str(random.randint(1,6)) + '</h1>'
+    '<h1>' gsda '</h1>'
 
 if __name__ == "__main__":
 	app.run(debug=True)
