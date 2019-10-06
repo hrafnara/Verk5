@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'h1>Hello World</h1><a href="/kauplisti/">kauplisti</a> <a href="/karfa/">Karfa</a>'
+    return 'h1>Hello World</h1><a href="/kauplisti/">kauplisti</a> <a href="/karfa/">karfa</a>'
 
 @app.route('/karfa/')
 def karfa():
@@ -11,7 +11,7 @@ def karfa():
 
 @app.route('/kauplisti/')
 def Kauplisti():
-    '<h1>' gsda '</h1>'
+    '<h1> gsda </h1>'
 
 if __name__ == "__main__":
 	app.run(debug=True)
