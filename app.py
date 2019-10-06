@@ -7,6 +7,7 @@ def index():
 
 @app.route('Karfa')
 def Karfa()
+    pass
 
 @app.route('Kauplisti')
 def Kauplisti()
