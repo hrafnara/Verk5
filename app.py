@@ -11,8 +11,8 @@ def Karfa():
 
 @app.route('/kauplisti/')
 def kauplisti():
-
-    return '<h1>' <input type="submit" value = "Kaupa" /> '</h1>'
+    pass
+ #   return '<h1>' <input type="submit" value = "Kaupa"> '</h1>'
 
 if __name__ == "__main__":
 	app.run(debug=True)
