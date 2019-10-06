@@ -3,15 +3,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'h1>Hello World</h1><a href="/kauplisti/">kauplisti</a> <a href="/Karfa/">Karfa</a>'
+    return 'h1>Hello World</h1><a href="/kauplisti/">kauplisti</a> <a href="/karfa/">Karfa</a>'
 
-@app.route('Karfa')
-def Karfa()
+@app.route('/karfa/')
+def karfa()
     return '<h3>halló</h3>'
 
-@app.route('Kauplisti')
+@app.route('/kauplisti/')
 def Kauplisti()
-    pass
+    '<h1>' + str(random.randint(1,6)) + '</h1>'
 
 if __name__ == "__main__":
 	app.run(debug=True)
