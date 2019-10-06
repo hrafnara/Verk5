@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<a href="/kauplisti/">kauplisti</a> <a href="/Karfa/">Karfa</a>'
+    return 'h1>Hello World</h1><a href="/kauplisti/">kauplisti</a> <a href="/Karfa/">Karfa</a>'
 
 @app.route('Karfa')
 def Karfa()
