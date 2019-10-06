@@ -12,3 +12,6 @@ def Karfa()
 @app.route('Kauplisti')
 def Kauplisti()
     return <input type="submit" value = "Kaupa" />
+
+if __name__ == "__main__":
+	app.run(debug=True)
